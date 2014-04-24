@@ -21,6 +21,7 @@ public class Ventana extends javax.swing.JFrame implements ActionListener {
         this.getContentPane().add(canvas);
         this.addKeyListener(canvas);
         tSerpiente.start();
+        System.out.println("Desde github");
 
     }
 
